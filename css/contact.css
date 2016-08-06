@@ -1,0 +1,153 @@
+/* Fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC:500';
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif:300';
+
+/* LOCATION PAGE */
+
+.menuLogo {
+
+	position: fixed;
+	margin: 50px;
+
+}
+
+.contact {
+
+	background: url(images/coffeebeans.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-attachment: fixed;
+
+
+}
+
+.contact {
+
+	background-color: #1a1a1a;
+	
+}
+
+.blackBoxlocation {
+
+	display: table;
+    height: 670px;
+    background: #1a1a1a;
+    opacity: 0.9;
+    margin: auto;
+    width: 65%;
+
+}
+
+.contactWord {
+
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Amatica SC';
+
+}
+
+
+.invisibleBox3 {
+
+	width: 84%;
+	margin: auto;
+
+}
+
+
+.hours {
+
+	padding-left: 60px;
+	color: #FDDB63;
+	padding-top: 20px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 10px;
+
+}
+
+.hoursConcrete {
+
+	padding-left: 60px;
+	padding-top: 5px;
+	text-align: left;
+	color: #fff;
+	list-style: none;
+	margin: auto;
+	font-weight: 200;
+	padding-bottom: 10px;
+
+}
+
+.genInfo {
+
+	padding-left: 60px;
+	color: #FDDB63;
+	padding-top: 20px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+	padding-bottom: 10px;
+
+}
+
+.infoList {
+
+	padding-left: 60px;
+	text-align: left;
+	color: #fff;
+	list-style: none;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 5px;
+
+}
+
+.addressTitle {
+
+	padding-left: 60px;
+	color: #FDDB63;
+	padding-top: 20px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+	padding-bottom: 10px;
+
+}
+
+.address {
+
+	padding-left: 60px;
+	text-align: left;
+	color: #fff;
+	list-style: none;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 5px;
+
+}
+
+
+hr {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+    height: 1px;
+    background-color: #333; /* Modern Browsers */
+
+}
+
+
+
+
+
+
+

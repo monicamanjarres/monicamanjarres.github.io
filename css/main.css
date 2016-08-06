@@ -1,0 +1,250 @@
+/* Fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC:500';
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif:700';
+
+
+/* HOME PAGE */
+
+
+/* Background color and font of Body */
+
+.home {
+	background-color: #1a1a1a;
+	font-family: 'Amatica SC';
+}
+
+/* Header Styling */
+
+.header nav {
+
+	text-align: center;
+
+}
+
+.header nav ul {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;	
+	line-height: 80px;
+}
+
+.header nav ul li {
+
+	color: #FDDB63;
+	display: inline-block;
+	padding: 0 35px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+/* Header Links Styling */
+
+.header a:link {
+
+	color: #FDDB63;
+	text-decoration: none;
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+
+}
+
+.header a:visited {
+
+	color: #FDDB63;
+	text-decoration: none;
+
+}
+
+.header a:hover {
+
+	color: #7F8913; 
+	text-decoration: none;
+
+}
+
+
+ /* Footer styling */
+
+ .homeFooter p {
+
+ 	font-family: 'helvetica', 'sans-serif';
+ 	padding-top: 6px;
+ 	color: #666;
+ 	font-weight: 100;
+ 	font-size: 13px;
+
+ }
+
+ .homeFooter nav {
+
+	text-align: center;
+
+}
+
+.homeFooter nav ul {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;	
+	line-height: 45px;
+}
+
+.homeFooter nav ul li {
+
+	color: #fff;
+	display: inline-block;
+	padding:  35px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+/* Footer Links Styling */
+
+.homeFooter a:link {
+
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+
+}
+
+.homeFooter a:visited {
+
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.homeFooter a:hover {
+
+	color: #F29815;
+	text-decoration: none;
+
+}
+
+/* Slideshow styling */
+
+.foodCarousel {
+
+  max-width: 100%;
+  height: 450px;
+  position: relative;
+
+}
+
+.slide1,.slide2,.slide3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* Slideshow animation */
+
+.slide1 {
+  background: url("images/sandwich.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade 11s infinite;
+-webkit-animation:fade 11s infinite;
+
+} 
+
+.slide2 {
+  background: url("images/flatbread.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade2 11s infinite;
+-webkit-animation:fade2 11s infinite;
+}
+
+.slide3 {
+    background: url("images/coffee.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade3 11s infinite;
+-webkit-animation:fade3 11s infinite;
+}
+
+@keyframes fade
+
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+
+@keyframes fade2
+
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+
+@keyframes fade3
+
+{
+
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+.logo {
+
+   position:fixed;
+   /*element can move on the screen (only screen, not page)*/
+
+   left:50%;top:50%;
+   /*set the top left corner of the element on the center of the screen*/
+
+   transform:translate(-50%,-50%);
+   /*reposition element center with screen center*/
+
+  z-index:10000;
+  /*actually, this number is the count of the elements of page  plus 1 :)*/
+  /*if you need that holds the element top of the others. */
+
+}
+
+
+
+
+
+
+
+
+
+

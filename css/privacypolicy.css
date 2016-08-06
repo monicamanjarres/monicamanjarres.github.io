@@ -1,0 +1,169 @@
+/* Fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC:500';
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif:300';
+
+/* LOCATION PAGE */
+
+.menuLogo {
+
+	position: fixed;
+	margin: 50px;
+
+}
+
+.privacypolicy {
+
+	background: url(images/brick.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-attachment: fixed;
+
+
+}
+
+.privacypolicy {
+
+	background-color: #1a1a1a;
+	
+}
+
+.policyText {
+
+	color: #E6e6e6;
+	font-size: 12px;
+	font-weight: 200;
+
+}
+
+.blackBoxlocation {
+
+	display: table;
+    height: 670px;
+    background: #1a1a1a;
+    opacity: 0.9;
+    margin: auto;
+    width: 65%;
+
+}
+
+.privacyWord {
+
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Amatica SC';
+
+}
+
+
+.invisibleBox3 {
+
+	width: 84%;
+	margin: auto;
+
+}
+
+
+
+h2 {
+
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 20px;
+	color: #7F8913;
+	font-weight: 200;
+
+}
+
+.subText {
+
+	text-align: center;
+	color: #FDDB63;
+	padding-top: 30px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 10px;
+
+}
+
+.understandOne {
+
+	text-align: center;
+	color: #F29815;
+	padding-top: 30px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+	font-weight: 500;
+
+}
+
+.understandTwo {
+
+	text-align: left;
+	color: #f2f2f2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+	font-weight: 500;
+
+}
+
+.apply {
+
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 19px;
+	font-weight: 200;
+
+
+}
+
+.apply a:link {
+
+	color: #FDDB63;
+	text-decoration: none;
+
+}
+
+.apply a:visited {
+
+	color: #FDDB63;
+	text-decoration: none;
+
+}
+
+.apply a:hover {
+
+	color: #7F8913;
+	text-decoration: none;
+
+}
+
+hr {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+    height: 1px;
+    background-color: #333; /* Modern Browsers */
+
+}
+
+
+
+
+
+
+

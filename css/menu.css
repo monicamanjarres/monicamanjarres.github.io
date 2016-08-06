@@ -1,0 +1,229 @@
+/* Fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC:500';
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif:300';
+
+
+/* MENU PAGE */
+
+
+.menu {
+
+	 
+  background: url(images/flatbread.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+.menu {
+
+	background-color: #1a1a1a;
+	
+}
+
+.menuLogo {
+
+	position: fixed;
+	margin: 50px;
+
+}
+
+/* Black Box down page */
+
+.blackBox {
+
+	display: table;
+    height: 1000px;
+    background: #1a1a1a;
+    opacity: 0.9;
+    margin: auto;
+    width: 50%;
+
+}
+
+/* Invisible <div> with Menu Content*/
+
+.invisibleBox1 {
+
+	width: 85%;
+	text-align: center;
+	margin: auto;
+
+}
+
+.rightColumn {
+
+	display: table;
+    height: 300px;
+    width: 15%;
+    float: right;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    font-family: 'Droid Serif';
+    font-weight: bold;
+    font-size: 12px;
+    color: #f2f2f2;
+    letter-spacing: .8px;
+
+}
+
+.rightColumn .priceRight {
+	float: right;
+}
+
+.rightColumn .priceLeft {
+	float: left;
+}
+
+.rightColumntwo {
+
+	display: table;
+    height: 300px;
+    width: 15%;
+    float: right;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    font-family: 'Droid Serif';
+    font-weight: bold;
+    font-size: 12px;
+    color: #f2f2f2;
+    letter-spacing: .8px;
+
+}
+
+.rightColumntwo .priceRight {
+	float: right;
+}
+
+.rightColumntwo .priceLeft {
+	float: left;
+}
+
+/* Menu Word */
+
+.menuWord {
+
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Amatica SC';
+
+}
+
+/* Food Category Links */
+
+.foodCategories {
+
+	padding-top: 0px;
+	padding-bottom: 15px;
+	font-size: 33px;
+	color: #FDDB63;
+	text-align: center;
+	font-family: 'Amatica SC';
+
+}
+
+/* Food Categories Link Styles */
+
+.foodCategories a:link {
+
+	color: #FDDB63;
+	text-decoration: none;
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+
+}
+
+.foodCategories a:visited {
+
+	color: #FDDB63;
+	text-decoration: none;
+
+}
+
+.foodCategories a:hover {
+
+	color: #F29815; 
+	text-decoration: none;
+
+}
+
+/* Category Header : DRINKS */
+
+.categoryHeader {
+
+	background: #EBE7DF;
+	height: 28px;
+
+}
+
+.categoryHeader p {
+
+	font-family: 'Droid Serif';
+	font-size: 14px;
+	padding: 4px;
+	font-weight: bold;
+	color: #1a1a1a;
+
+}
+
+/* Horizontal Break */
+
+.yellowLine {
+
+	color: #FDDB63;
+
+}
+
+.foodName {
+
+	color: #A6AD15;
+	font-size: 16px;
+	font-family: 'Droid Serif';
+	text-align: left;
+
+}
+
+.foodDescription {
+
+	color: #e6e6e6;
+	font-family: 'Droid Serif';
+	font-size: 15px;
+	text-align: left;
+
+}
+
+.ruleChange hr {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+    height: 1px;
+    background-color: #333; /* Modern Browsers */
+
+}
+

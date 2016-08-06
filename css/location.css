@@ -1,0 +1,73 @@
+/* Fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC:500';
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif:300';
+
+/* LOCATION PAGE */
+
+.menuLogo {
+
+	position: fixed;
+	margin: 50px;
+
+}
+
+.location {
+
+	background: url(images/munnpark.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-attachment: fixed;
+
+
+}
+
+.location {
+
+	background-color: #1a1a1a;
+	
+}
+
+.blackBoxlocation {
+
+	display: table;
+    height: 670px;
+    background: #1a1a1a;
+    opacity: 0.9;
+    margin: auto;
+    width: 65%;
+
+}
+
+.locationWord {
+
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Amatica SC';
+
+}
+
+
+.invisibleBox3 {
+
+	text-align: center;
+	width: 80%;
+	margin: auto;
+
+}
+
+
+.description {
+
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 50px;
+
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<!-- Meta Information to ensure responsiveness across devices -->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CDN Links -->
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- CSS Stylesheet Link -->
+
+		<link rel="stylesheet" type="text/css" href="css/location.css">
+
+
+		<title>Location | Black &amp; Brew</title>
+
+
+	</head>
+
+	<body class="location" onload="showGoogleMap()" onunload="GUnload()">
+
+		<a href="index.html"><img class="menuLogo" src="css/images/logo_menu.png" height="90px" width="90px" onmouseover="this.src='css/images/logo_menu_hover.png'" onmouseout="this.src='css/images/logo_menu.png'"></a>
+
+		 <!-- Start blackBox -->
+
+		<div class="blackBoxlocation"> 
+
+			<!-- Start Invisible div -->
+
+			<div class="invisibleBox3"> 
+
+			<span>
+
+				<p class="locationWord">- LOCATION - <br></p> <p class="description">Black &amp; Brew Coffee House &amp; Bistro is located at 205 East Main Street in Lakeland, Florida. Business hours are Monday-Thursday from 7am to 8pm. Friday from 7am to 10pm, Saturday from 8am to 10pm, and Sunday from 11am to 4pm.</p> 
+
+			</span>
+
+
+
+		<table id="content">
+ 		 <tr>
+   		 <td class="left_col"><div id="copy"><style type="text/css">
+			#map{padding: 0px 0px 0px 0px; border:0; vertical-align:top;}</style>
+
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAa4Mz3WB8HOlElz3lQ55ghxS0gFWlSfrz7I9hRxTzMbiOmr98SRTtMDDjp1Nc-bb7CIx6sR6s3LSuJQ" type="text/javascript"></script>
+
+       <div align="center">
+	<div id="map" style="border:#FFFFFF solid 5px; width: 550px; height: 400px; text-align:left"></div>
+</div>
+<p>&nbsp;</p>
+
+
+<script type="text/javascript">
+
+	var tabs = [];
+	function createTabbedMarker(point,htmls,labels) 
+	{
+		var marker = new GMarker(point);
+		//var tabs = [];
+	
+		for (var i=0; i<htmls.length; i++) 
+		{
+			tabs.push(
+				new GInfoWindowTab(
+					labels[i],
+					'<div class="tabbody">' + htmls[i] + '</div>'
+					) 
+				);
+		}
+	
+		GEvent.addListener(marker, "click", function() 
+		{
+			marker.openInfoWindowTabsHtml(tabs);
+		}
+	
+		);
+		return marker;
+	}
+	//<![CDATA[
+	function showGoogleMap() {
+
+	var map = new GMap(document.getElementById("map"));
+	map.addControl(new GLargeMapControl());
+	//map.addControl(new GOverviewMapControl());
+
+    map.setCenter(new GLatLng(28.043993,-81.956077), 16);
+	var point;
+	var marker;
+
+	point = new GLatLng(28.043993,-81.956077);
+	marker = createTabbedMarker(point,
+		[	"<p><br /><b>Black &amp; Brew Coffee House &amp; Bistro</b><br />205 E Main St.<br />Lakeland, FL 33801</span></p>",
+			"<div class='turnbyturn'><p><b>Turn by Turn Directions</b></p><form action='http://maps.google.com/maps' target='_blank' method='get'><p style='padding-bottom: 5px;'><label for='saddr'>Starting Address</label><br /><input type='text' name='saddr' id='saddr' value='' style='border: 1px solid #878484; width: 200px;' /><br /><input type='submit' value='Get Directions' style='margin: 5px 0 0 0;font: 11px Arial; color: #FFF; background-color: #A09992; height: 23px; border: 1px solid #8E8882; padding: 3px;' /><input type='hidden' name='daddr' value='205 East Main Street, Lakeland, FL 33801' /><input type='hidden' name='hl' value='en' /></p></form></p></div>"
+		],
+		[	"Address",
+			"Directions"
+		]); 
+	map.addOverlay(marker);
+	marker.openInfoWindowTabsHtml(tabs);
+}
+//]]>
+</script>
+
+
+</div> <!-- End Invisible div -->
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
