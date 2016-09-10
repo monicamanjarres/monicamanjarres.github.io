@@ -816,6 +816,12 @@ html.w-mod-js *[data-ix="scroll-reveal-11"] {
     padding-right: 10px;
     padding-left: 10px;
   }
+  .story-image {
+    height: 300px;
+  }
+  .about-me-image {
+    height: 400px;
+  }
   .bio {
     width: auto;
     margin-bottom: 10px;
@@ -847,11 +853,19 @@ html.w-mod-js *[data-ix="scroll-reveal-11"] {
     line-height: 30px;
     text-align: center;
   }
+  .linkblock1._1 {
+    margin-bottom: 15px;
+  }
   .icon-div-2 {
     float: left;
   }
   .contact-form {
     padding-right: 10px;
     padding-left: 10px;
+    font-size: 29px;
+  }
+  .email {
+    font-size: 25px;
+    text-decoration: none;
   }
 }
